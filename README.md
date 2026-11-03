@@ -1,5 +1,6 @@
 # PCA-EXP-3-PARALLEL-REDUCTION-USING-UNROLLING-TECHNIQUES AY 23-24
-<h3>AIM:</h3>
+<h3>AIM:
+    To implement the kernel reduceUnrolling16 and comapare the performance of kernal reduceUnrolling16 with kernal reduceUnrolling8 using nvprof.</h3>
 <h3>ENTER YOUR NAME: YASHVANDAN K</h3>
 <h3>ENTER YOUR REGISTER NO: 212225100060</h3>
 <h3>EX. NO: 3</h3>
@@ -377,7 +378,7 @@ int main(int argc, char **argv)
 ```
 
 ## OUTPUT:
-SHOW YOUR OUTPUT HERE
+<img width="683" height="72" alt="parallel3" src="https://github.com/user-attachments/assets/c111cd09-835a-4e5c-8201-4640c453d91b" />
 
 ## RESULT:
-Thus the program has been executed by unrolling by 8 and unrolling by 16. It is observed that _________ has executed with less elapsed time than _____________ with blocks_____,______.
+Thus the program has been executed by unrolling by 8 and unrolling by 16. It is observed that 16 has executed with less elapsed time than 8 with blocks 2048,512.
